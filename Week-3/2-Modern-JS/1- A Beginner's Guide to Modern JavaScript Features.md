@@ -154,9 +154,7 @@ console.log("New way addNum(5, 3):", addNumNew(5, 3)); // Output: 8
 
 **Important Note on `this` keyword:** Arrow functions behave differently from traditional functions regarding the `this` keyword. They don't have their own `this` binding; instead, they inherit `this` from their surrounding (lexical) scope. This is a more advanced topic but good to be aware of.
 
-## 4. Spread Operator (`...`)
-
-# JavaScript Spread Syntax: A Beginner's Guide to Function Calls
+# 4. Spread Operator (`...`)
 
 Let's learn about a super useful JavaScript feature called the **spread syntax**. It looks like three little dots (`...`) and can do different things depending on where you use it. In this guide, we'll focus on how to use spread syntax when you're calling functions.
 
@@ -172,9 +170,8 @@ There are three main places you can use spread syntax:
 
 No matter where you use it, the three dots (`...`) are always the symbol for spread.
 
-**Spreading in Function Calls**
-
-## Passing Arguments Individually
+##Spreading in Function Calls
+**Passing Arguments Individually**
 
 When you use spread syntax inside the parentheses `()` of a function call, it takes an iterable (like an array or a string) and breaks it up into individual arguments for that function.
 
@@ -510,8 +507,6 @@ console.log(maxPackSize); // Output: 10
 
 ## 7. Fun Facts About Our Mammal Stars! (Bonus Biology)
 
-Let's learn a little about the animals we've been coding with:
-
 - **Lion**: Known as the "king of the jungle" (though they mostly live in grasslands and savannas!), lions are social cats that live in groups called prides.
 - **Tiger**: The largest cat species, tigers are recognizable by their dark vertical stripes on reddish-orange fur. They are solitary hunters.
 - **Leopard**: Leopards are powerful big cats known for their spotted coats and incredible climbing ability. They often hoist their prey into trees.
@@ -571,7 +566,7 @@ console.log(cephCopy);
 
 That's the JavaScript spread syntax with our mammal friends! Hopefully, this makes it much clearer.
 
-## 3. Spread in Object Literals
+# 3. Spread in Object Literals
 
 This is where you use spread syntax inside object literals (`{}`) to copy properties from one or more objects into a new object.
 
