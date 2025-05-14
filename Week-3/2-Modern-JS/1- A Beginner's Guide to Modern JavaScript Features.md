@@ -171,8 +171,8 @@ There are three main places you can use spread syntax:
 
 No matter where you use it, the three dots (`...`) are always the symbol for spread.
 
-## Spreading in Function Calls
-## Passing Arguments Individually
+# Spreading in Function Calls
+### Passing Arguments Individually
 
 When you use spread syntax inside the parentheses `()` of a function call, it takes an iterable (like an array or a string) and breaks it up into individual arguments for that function.
 
@@ -294,9 +294,9 @@ When you use spread syntax (`...`) with an iterable (like an array or string) in
 This is just one way to use spread syntax. As mentioned, it can also be used in array literals (to create or combine arrays) and object literals (to create or combine objects).
 
 
-##Spread in Array Literals
+# Spread in Array Literals
 
-** Our Mammal Families (Arrays)**
+**Our Mammal Families (Arrays)**
 
 First, let's define some arrays of mammals. Think of these as our groups of animal friends.
 
@@ -566,7 +566,7 @@ console.log(cephCopy);
 
 That's the JavaScript spread syntax with our mammal friends! Hopefully, this makes it much clearer.
 
-## Spread in Object Literals
+# Spread in Object Literals
 
 This is where you use spread syntax inside object literals (`{}`) to copy properties from one or more objects into a new object.
 
