@@ -172,7 +172,7 @@ There are three main places you can use spread syntax:
 No matter where you use it, the three dots (`...`) are always the symbol for spread.
 
 ## Spreading in Function Calls
-**Passing Arguments Individually
+## Passing Arguments Individually
 
 When you use spread syntax inside the parentheses `()` of a function call, it takes an iterable (like an array or a string) and breaks it up into individual arguments for that function.
 
