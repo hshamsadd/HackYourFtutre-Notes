@@ -1,4 +1,4 @@
-##"Sharing because we all learn better together."
+## "Sharing because we all learn better together."
 
 Key Resources:  
 • 📝 [Scope Types](https://github.com/hshamsadd/HackYourFtutre-Notes/blob/main/Week-2-JS/1-Scope/1-%20Types%20of%20Scopes%20in%20JS.md)                                              
