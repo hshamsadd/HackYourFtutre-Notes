@@ -4,7 +4,7 @@ Welcome, new coders! JavaScript is a language that keeps evolving, meaning new f
 
 It's good to know that JavaScript has different versions. You might see older code using `var` to declare variables or functions written in a certain way. Modern JavaScript (often referred to as ES6 or ECMAScript 2015 and later versions) introduced many improvements. Let's explore some of them!
 
-## 1. `let` and `const` (Replacing `var`)
+# 1. `let` and `const` (Replacing `var`)
 
 In older JavaScript, `var` was the primary way to declare variables. Modern JavaScript introduced `let` and `const` for better variable management.
 
@@ -36,7 +36,7 @@ In older JavaScript, `var` was the primary way to declare variables. Modern Java
 **Why use `let` and `const` over `var`?**
 `let` and `const` provide better scope control (block scope vs. function scope for `var`) and help prevent accidental re-declarations or modifications, leading to more predictable and maintainable code.
 
-## 2. Template Strings (Template Literals)
+# 2. Template Strings (Template Literals)
 
 Template strings offer a more convenient way to create strings, especially when you need to include variables or expressions inside them.
 
@@ -74,7 +74,7 @@ console.log(
 
 Template strings also make it easier to write multi-line strings without needing special characters like `\n`.
 
-## 3. Arrow Functions
+# 3. Arrow Functions
 
 Arrow functions provide a shorter syntax for writing functions. They are especially handy for simple, one-line functions.
 
@@ -125,7 +125,8 @@ console.log("New way addNum(5, 3):", addNumNew(5, 3)); // Output: 8
     greet(); // Output: HI!
     ```
 
-- **Implicit Return:** If the function body is a single expression, you can omit the curly braces `{}` and the `return` keyword. The result of the expression will be automatically returned.
+- # 4. Implicit Return Arrow Functions:
+- If the function body is a single expression, you can omit the curly braces `{}` and the `return` keyword. The result of the expression will be automatically returned.
 
   ```javascript
   // "Regular" arrow function with explicit return:
@@ -154,7 +155,7 @@ console.log("New way addNum(5, 3):", addNumNew(5, 3)); // Output: 8
 
 **Important Note on `this` keyword:** Arrow functions behave differently from traditional functions regarding the `this` keyword. They don't have their own `this` binding; instead, they inherit `this` from their surrounding (lexical) scope. This is a more advanced topic but good to be aware of.
 
-# 4. Spread Operator (`...`)
+# 5. Spread Operator (`...`)
 
 Let's learn about a super useful JavaScript feature called the **spread syntax**. It looks like three little dots (`...`) and can do different things depending on where you use it. In this guide, we'll focus on how to use spread syntax when you're calling functions.
 
@@ -290,13 +291,12 @@ console.log(
 
 When you use spread syntax (`...`) with an iterable (like an array or string) in a function call, it **expands** that iterable into its individual components, passing each component as a separate argument to the function.
 
-This is just one way to use spread syntax. As mentioned, it can also be used in array literals (to create or combine arrays) and object literals (to create or combine objects), which you might learn about next!
+This is just one way to use spread syntax. As mentioned, it can also be used in array literals (to create or combine arrays) and object literals (to create or combine objects).
 
-**More Examples of Spreading:**
 
-**Spreading Arrays:**
+##Spread in Array Literals
 
-## Our Mammal Families (Arrays)
+** Our Mammal Families (Arrays)**
 
 First, let's define some arrays of mammals. Think of these as our groups of animal friends.
 
@@ -566,7 +566,7 @@ console.log(cephCopy);
 
 That's the JavaScript spread syntax with our mammal friends! Hopefully, this makes it much clearer.
 
-# 3. Spread in Object Literals
+## Spread in Object Literals
 
 This is where you use spread syntax inside object literals (`{}`) to copy properties from one or more objects into a new object.
 
@@ -836,7 +836,7 @@ const obj1Copy = { ...obj1 };
 console.log("Copied object:", obj1Copy); // Output: { a: 1, b: 2 }
 ```
 
-## 6. Default Parameter Values
+# 6. Default Parameter Values
 
 Default parameters allow you to assign default values to function parameters if no value (or `undefined`) is passed for them during the function call.
 
@@ -872,7 +872,7 @@ greetPerson("Bob", "Hello"); // Output: Hello, Bob!
 
 You can even have default values that are arrays or other expressions.
 
-## 6. Rest Parameters (`...`)
+## 7. Rest Parameters (`...`)
 
 Rest parameters look just like the spread operator (`...`), but they are used in a function's parameter list to collect an **indefinite number of arguments** into a single array.
 
@@ -932,11 +932,11 @@ console.log("Multiply 2, 3, 4:", multiplyAll(2, 3, 4)); // Output: 24
 console.log("Multiply 5, 10:", multiplyAll(5, 10)); // Output: 50
 ```
 
-## 7. Destructuring Assignment
+# 8. Destructuring
 
 Destructuring is a convenient way to extract values from arrays or properties from objects and assign them to distinct variables.
 
-### Destructuring Arrays
+## Destructuring Arrays
 
 You can unpack values from an array into individual variables based on their position.
 
@@ -984,7 +984,7 @@ console.log(
 // Output: Student: Mahmood, Subject: JavaScript, Grade: 9
 ```
 
-### Destructuring Objects
+## Destructuring Objects
 
 You can unpack properties from an object into variables. The variable names must match the property keys.
 
@@ -1012,7 +1012,7 @@ console.log(`Runner: ${fName} ${lName}`);
 console.log("Other details:", otherDetails); // Output: { country: "Kenya", title: "Elder of the Order of the Golden Heart of Kenya" }
 ```
 
-### Nested Destructuring
+## Nested Destructuring
 
 You can destructure nested arrays or objects.
 
@@ -1042,7 +1042,7 @@ console.log("Gold Winner's Name:", goldWinnerName); // Output: Eliud
 console.log("Silver Medalist's Country:", silverMedalistCountry); // Output: Ethiopia
 ```
 
-### Destructuring Function Parameters
+## Destructuring Function Parameters
 
 This is a very common and useful pattern, especially when working with objects passed as arguments to functions.
 
