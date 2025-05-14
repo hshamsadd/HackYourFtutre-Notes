@@ -1,6 +1,6 @@
 # JavaScript Spread Syntax: Explained with Mammal Examples!
 
-Welcome, beginner coders! Let's learn about a cool JavaScript feature called the **spread syntax**. It looks like three dots (`...`) and is super handy for working with arrays (lists of items). We'll use fun mammal examples from the order Carnivora to make it easy to understand!
+Let's learn about a cool JavaScript feature called the **spread syntax**. It looks like three dots (`...`) and is super handy for working with arrays (lists of items). We'll use fun mammal examples from the order Carnivora to make it easy to understand!
 
 ## Our Mammal Families (Arrays)
 
@@ -244,4 +244,31 @@ console.timeEnd("concat copy mammal"); // Shows how long it took
 // Results will be very small, often fractions of a millisecond.
 ```
 
-That's the JavaScript spread syntax with our mammal friends! Hopefully, this makes it much clearer. Keep practicing, and you'll be a JavaScript pro in no time!
+```javascript
+const cephalopods = [
+  "dumbo octopus",
+  "humboldt squid",
+  "flamboyant cuttlefish",
+];
+console.log(cephalopods);
+//['dumbo octopus', 'humboldt squid', 'flamboyant cuttlefish']
+const gastropods = ["giant african snail", "banana slug", "variable neon slug"];
+console.log(gastropods);
+//['giant african snail', 'banana slug', 'variable neon slug']
+const cnidaria = ["fire coral", "moon jelly"];
+console.log(cnidaria);
+//['fire coral', 'moon jelly']
+
+const mollusca = [...cephalopods, ...gastropods];
+console.log(mollusca);
+//["dumbo octopus", "humboldt squid", "flamboyant cuttlefish", "giant african snail", "banana slug", "variable neon slug"]
+
+const inverts = [...cnidaria, ...gastropods, ...cephalopods];
+console.log(inverts);
+//["fire coral", "moon jelly", "giant african snail", "banana slug", "variable neon slug", "dumbo octopus", "humboldt squid", "flamboyant cuttlefish"]
+
+const cephCopy = [...cephalopods];
+console.log(cephCopy);
+//["dumbo octopus", "humboldt squid", "flamboyant cuttlefish"]
+```
+That's the JavaScript spread syntax with our mammal friends! Hopefully, this makes it much clearer.
