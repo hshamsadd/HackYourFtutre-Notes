@@ -1,6 +1,6 @@
-# Understanding Scope in JavaScript: A Beginner's Guide
+# Understanding Scope in JavaScrip
 
-Welcome, new coders! Let's explore a very important concept in JavaScript called **scope**. Understanding scope will help you write better, less buggy code by knowing where your variables can be used.
+Let's explore a very important concept in JavaScript called **scope**. Understanding scope will help you write better, less buggy code by knowing where your variables can be used.
 
 ## What is Scope?
 
