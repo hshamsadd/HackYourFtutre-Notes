@@ -100,6 +100,20 @@ giveMeFour(..."GOAT");
 ```
 Here, `"G"` is passed as `a`, `"O"` as `b`, `"A"` as `c`, and `"T"` as `d`.
 
+### Example 4: Spread for Array Literals with Rest Params
+```javascript
+const shoppingCart1 = ["bananas", "milk", "honey"];
+const shoppingCart2 = ["cheese", "bread", "eggs"];
+const shoppingCart3 = ["soda", "biscuits", "oil"];
+
+function addToShoppingCart(shoppingCart1, ...item) {
+  const flatItems = item.flat(); // flatten nested arrays
+  return `You bought ${[...shoppingCart1, ...flatItems].join(", ")}`;
+}
+
+console.log(addToShoppingCart(shoppingCart1, shoppingCart2, "juice", "grapes", shoppingCart3));
+// 'You bought bananas, milk, honey, cheese, bread, eggs, juice, grapes, soda, biscuits, oil'
+```
 ## Key Takeaway for Function Calls
 
 When you use spread syntax (`...`) with an iterable (like an array or string) in a function call, it **expands** that iterable into its individual components, passing each component as a separate argument to the function.
