@@ -1,6 +1,6 @@
-# A Beginner's Guide to Modern JavaScript Features
+# Modern JavaScript Features
 
-Welcome, new coders! JavaScript is a language that keeps evolving, meaning new features are added to make coding easier, cleaner, and more powerful. This guide will walk you through some of these "modern" JavaScript features in a simple way, using clear examples.
+JavaScript is a language that keeps evolving, meaning new features are added to make coding easier, cleaner, and more powerful. This guide will walk you through some of these "modern" JavaScript features in a simple way, using clear examples.
 
 It's good to know that JavaScript has different versions. You might see older code using `var` to declare variables or functions written in a certain way. Modern JavaScript (often referred to as ES6 or ECMAScript 2015 and later versions) introduced many improvements. Let's explore some of them!
 
