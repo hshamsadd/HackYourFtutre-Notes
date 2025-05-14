@@ -1,6 +1,6 @@
-# A Beginner's Guide to Problem Solving in Programming
+# Problem Solving in Programming
 
-Welcome, new coders! One of the most important skills you'll develop as a programmer is **problem solving**. Programming isn't just about writing code; it's about figuring out how to tell a computer, step by step, how to solve a problem or achieve a goal. Computers are powerful, but they need very precise instructions!
+One of the most important skills you'll develop as a programmer is **problem solving**. Programming isn't just about writing code; it's about figuring out how to tell a computer, step by step, how to solve a problem or achieve a goal. Computers are powerful, but they need very precise instructions!
 
 This guide will walk you through a general process to tackle programming problems, making them less daunting and more manageable.
 
