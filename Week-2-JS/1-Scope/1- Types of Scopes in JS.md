@@ -233,7 +233,7 @@ Lexical scope helps create a clear and predictable structure for your code, maki
 
 ## 5. Module Scope
 
-While not explicitly detailed with examples in the provided code snippets, **Module Scope** is another important scope type in modern JavaScript, especially when you start organizing your code into separate files called modules (using ES6 `import` and `export` syntax).
+**Module Scope** is another important scope type in modern JavaScript, especially when you start organizing your code into separate files called modules (using ES6 `import` and `export` syntax).
 
 **What it is:** When you write JavaScript in a module, variables and functions declared in that module are, by default, scoped to that module. This means they are not automatically global.
 
@@ -249,7 +249,7 @@ While not explicitly detailed with examples in the provided code snippets, **Mod
 - **Encapsulation:** It helps keep the internal workings of a module private, only exposing what's necessary.
 - **Better Organization:** It encourages breaking down large applications into smaller, manageable, and reusable pieces.
 
-**Conceptual Example (No direct code from provided text, but for understanding):**
+**Conceptual Example:**
 
 Imagine you have a file `mathUtils.js`:
 
